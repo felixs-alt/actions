@@ -36,7 +36,7 @@ jobs:
       name: ${{ inputs.name }}
       pip-packages: ${{ inputs.pip-packages }}
       problem-matcher: ${{ inputs.problem-matcher }}
-      publish: false
+      publish: true
       release-date: ""
       version: dev
 
